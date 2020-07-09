@@ -25,7 +25,8 @@ class HashTable:
     def get_num_slots(self): #GET NUM OF SLOTS
         """
         Return the length of the list you're using to hold the hash
-        table data. (Not the number of items stored in the hash table,
+        table data. 
+        (Not the number of items stored in the hash table,
         but the number of slots in the main list.)
         One of the tests relies on this.
         Implement this:
@@ -34,7 +35,7 @@ class HashTable:
         return len(self.capacity) 
         # data is how much is in it, capacity is everything it can hold
 
-    def get_load_factor(self): #GET LOAD FACTOR
+    def get_load_factor(self): #GET LOAD FACTOR (num of elements / slots)
         """
         Return the load factor for this hash table.
         Implement this:
